@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Test</title>
+        <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+
+    <!--
+        <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+        <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+        
+        <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
+        <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script> -->
+</head>
+<body>
+<h1>Receipt Generator</h1>
+    <br>
+    <form>
+        <label for="choose">Please input what the customer has ordered here:</label>
+        <br>
+        <input type="checkbox" id="item1" value="110">
+        <label for="item1">Gatorade</label>
+        <br>
+        <input type="checkbox" id="item2" value="120">
+        <label for="item2">BOOST shot</label>
+        <br>
+        <input type="checkbox" id="item3" value="80">
+        <label for="item3">Mentos Cool-fresh</label>
+        <br>
+        <input type="checkbox" id="item4" value="150">
+        <label for="item4">Pizza-Bagel</label>
+        <br>
+        <input type="checkbox" id="item5" value="1">
+        <label for="item5">Jeremy</label>
+        <br>
+        <br>
+
+    <button type="button" py-click="create_order">Create Receipt</button>
+    </form>
+
+    <div style="display:flex; flex-direction: column; padding: 20px; border: 1px solid #ccc; max-width: 350px; margin: 0 auto; font-family: 'Courier New', Courier, monospace; font-size: 14px;">
+    <h1>7-ELEVEN</h1>
+    <li>432 4TH AVE</li> 
+    <li>CHICAGO IL 45343</li>
+    <li>2564852668</li>
+    <li>STORE#: 54353</li>
+    <li>THANKS FOR SHOPPING</li> 
+    <li>7-ELEVEN</li>
+    <div style="font-size: 20px;" id="output1"></div>
+
+    <script type="py" src="main.py"></script>
+    <li>ACCT#: ********* 1234</li>
+    <li>ACCT TYPE: DDA</li>
+    <li>AUTH CODE: 0</li>
+    <li>APPROVAL# 435423</li>
+    <li>APPROVAL TIME: 143243</li>
+    <li>Maestro</li>
+    <li>STORE#: 32423</li>
+    <li>TERM# 12312435324 12</li>
+    <li>TERM SEQ# 562342</li>
+    <li>REF#: 95322 23 123 1</li>
+    <li>APPROVED</li>
+    <br>
+    <p>CUSTOMER AGREES TO PAY THE ABOVE TOTAL AMOUNT ACCORDING TO THE CARD HOLDERS AGREEMENT</p>
+    <p>HAVE YOU TRIED OUR NEW DORITOS LOADED?
+    T#03 OP34 TRN0130 02/14/2025 3:12 PM</p>
+    </div>
+
+</body>
+</html>
