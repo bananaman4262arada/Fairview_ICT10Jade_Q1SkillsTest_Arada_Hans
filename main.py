@@ -12,4 +12,4 @@ def create_order(e):
        grandtotal = subtotal + tax
        display(f'SUBTOTAL               {subtotal}', target="output1", append=True)
        display(f'SALES TAX ON 7.34      {tax}', target="output1", append=True)
-       display(f'TOTAL DUE              {grandtotal}', target="output1", append=True)order}', target="output4")
+       display(f'TOTAL DUE              {grandtotal}', target="output1", append=True)
