@@ -10,6 +10,6 @@ def create_order(e):
        subtotal = (float(item1.value) * item1.checked) + (float(item2.value) * item2.checked) + (float(item3.value) * item3.checked) + (float(item4.value) * item4.checked) + (float(item5.value) * item5.checked)
        tax = subtotal * 0.12
        grandtotal = subtotal + tax
-       display(f'SUBTOTAL               {subtotal:}', target="output1", append=True)
-       display(f'SALES TAX ON 7.34      {tax:}', target="output1", append=True)
-       display(f'TOTAL DUE              {grandtotal:}', target="output1", append=True)order}', target="output4")
+       display(f'SUBTOTAL               {subtotal}', target="output1", append=True)
+       display(f'SALES TAX ON 7.34      {tax}', target="output1", append=True)
+       display(f'TOTAL DUE              {grandtotal}', target="output1", append=True)order}', target="output4")
